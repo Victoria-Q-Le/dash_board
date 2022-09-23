@@ -130,13 +130,11 @@ body {
 
  aside {
     height: 100vh;
-    background: grey;
  }
 
  /* SIDE BAR TOP */
 
  aside .top {
-    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -159,7 +157,6 @@ body {
 
  /* SIDE BAR OPTIONS*/
  aside .sidebar {
-    background: white;
     display: flex;
     flex-direction: column;
     height: 86vh;
