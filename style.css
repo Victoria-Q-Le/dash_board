@@ -50,6 +50,15 @@ body {
     user-select: none;
     overflow-x: hidden;
 }
+
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+
  a {
     color: var(--color-dark);
  }
@@ -93,5 +102,77 @@ body {
 
  .text-muted {
     color: var(--color-info-dark);
-    
+ }
+
+ p {
+    color: var(--color-dark-variant);
+ }
+
+ b {
+    color: var(--color-dark);
+ }
+
+ .primary {
+    color: var(--color-primary);
+ }
+
+ .danger {
+    color: var(--color-danger);
+ }
+
+ .success {
+    color: var(--color-success);
+ }
+
+ .warning {
+    color: var(--color-warning);
+ }
+
+ aside {
+    height: 100vh;
+    background: grey;
+ }
+
+ /* SIDE BAR TOP */
+
+ aside .top {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+ }
+
+ aside .logo {
+    display: flex;
+    gap: 0.8rem;
+ }
+
+ aside .logo img {
+    width: 2rem;
+    height: 2rem;
+ }
+
+ aside .close {
+    display: none;
+ }
+
+ /* SIDE BAR OPTIONS*/
+ aside .sidebar {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+ }
+
+ aside h3 {
+    font-weight: 500;
+ }
+
+ aside .sidebar a {
+    display: flex;
+    color: var(--color-info-dark);
+    margin-left: 2rem;
  }
