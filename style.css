@@ -49,6 +49,7 @@ body {
     background: var(--color-background);
     user-select: none;
     overflow-x: hidden;
+    color: var(--color-dark);
 }
 
 .container {
@@ -224,3 +225,14 @@ body {
     font-size: 11px;
     border-radius: var(--border-radius-1);
  }
+
+ /* MAIN SECTION */
+main {
+   margin-top: 1.4rem;;
+}
+
+main .date {
+   display: inline-block;
+   background: var(--color-light);
+   border-radius: var(--border-radius-1);
+}
