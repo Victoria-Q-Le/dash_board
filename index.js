@@ -20,3 +20,13 @@ themeToggler.addEventListener('click', () => {
   themeToggler.querySelector('span:nth-child(2)').classList.toggle('active')
 }
 )
+
+// Fill orders in table
+Orders.forEach(order => {
+    const tr = document.createElement('tr')
+    const trContent = ` <td>${order.productName}</td>
+                        <td>${order.productNumber}</td>
+                        <td>${order.payment}</td><td class="${order.shipping === 'Declined' ? 'danger' : order.shipping === 'Pending' ? 'warning' : 'primary'}">${order.shipping}</td><td class="primary">Details</td> `
+    tr.innerHTML = trContent 
+    document.querySelector('table tbody').appendChild(tr)
+});

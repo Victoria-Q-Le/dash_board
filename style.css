@@ -521,10 +521,10 @@ main .recent-orders a {
 
 
 /* MEDIA QUERIES  1*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
    .container {
       width: 94%;
-      grid-template-columns: 1fr;
+      grid-template-columns: 7rem auto 23rem;
    }
 
    aside .logo h2{
@@ -540,7 +540,7 @@ main .recent-orders a {
    }
 
    aside .sidebar a:last-child {
-      position: absolute;
+      position: relative;
       margin-top: 1.8rem;
    }
 
@@ -572,9 +572,10 @@ main .recent-orders a {
 
 
 /* MEDIA QUERIES 2 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
    .container {
       width: 100%;
+      grid-template-columns: 1fr;
    }
    
    aside {
