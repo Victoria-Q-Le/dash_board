@@ -16,7 +16,7 @@ A mockup frontend dashboard created by HTML, CSS and JavaScript.
 - Most of the data of the website is a static data, except for the table. In the future, this frontend can be used to build a full stack website that receive and reflect information updates from server. 
 
 # Demo: 
-
+Click to view the [Demo] (https://www.loom.com/share/4a0d2414a5f8488591f922927a28f26b)
 
 
 
